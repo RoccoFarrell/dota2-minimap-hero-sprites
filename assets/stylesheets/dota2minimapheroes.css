@@ -637,3 +637,39 @@
 .d2mh.primal_beast, .d2mh.npc_dota_hero_primal_beast, .d2mh.hero-137 { 
     background-position: -416px -288px;
 }
+
+.d2mh.brewmaster_void, .d2mh.npc_dota_hero_brewmaster_void { 
+    background-position: -448px -288px;
+}
+
+.d2mh.faceless_void_alt1, .d2mh.npc_dota_hero_faceless_void_alt1 { 
+    background-position: -480px -288px;
+}
+
+.d2mh.faceless_void_alt2, .d2mh.npc_dota_hero_faceless_void_alt2 { 
+    background-position: -0px -320px;
+}
+
+.d2mh.phantom_assassin_persona1, .d2mh.npc_dota_hero_phantom_assassin_persona1 { 
+    background-position: -32px -320px;
+}
+
+.d2mh.crystal_maiden_persona1, .d2mh.npc_dota_hero_crystal_maiden_persona1 { 
+    background-position: -128px -320px;
+}
+
+.d2mh.razor_alt1, .d2mh.npc_dota_hero_razor_alt1 { 
+    background-position: -64px -320px;
+}
+
+.d2mh.razor_alt2, .d2mh.npc_dota_hero_razor_alt2 { 
+    background-position: -96px -320px;
+}
+
+.d2mh.muerta, .d2mh.npc_dota_hero_muerta, .d2mh.hero-138 { 
+    background-position: -160px -320px;
+}
+
+.d2mh., .d2mh.unit_no_cc { 
+    background-position: -0px -480px;
+}

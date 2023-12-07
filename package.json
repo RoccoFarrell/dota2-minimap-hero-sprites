@@ -1,5 +1,5 @@
 {
-  "name": "dota2-minimap-hero-sprites",
+  "name": "dota2-css-hero-sprites",
   "version": "2.4.0",
   "description": "CSS Spritesheet for the Dota 2 minimap hero icons",
   "dependencies": {},
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bontscho/dota2-minimap-hero-sprites.git"
+    "url": "https://github.com/RoccoFarrell/dota2-minimap-hero-sprites.git"
   },
   "keywords": [
     "dota",
@@ -27,9 +27,9 @@
     "spritesheet",
     "css"
   ],
-  "author": "bontscho",
+  "author": "RoccoFarrell",
   "bugs": {
-    "url": "https://github.com/bontscho/dota2-minimap-hero-sprites/issues"
+    "url": "https://github.com/RoccoFarrell/dota2-minimap-hero-sprites/issues"
   },
-  "homepage": "https://github.com/bontscho/dota2-minimap-hero-sprites"
+  "homepage": "https://github.com/RoccoFarrell/dota2-minimap-hero-sprites"
 }

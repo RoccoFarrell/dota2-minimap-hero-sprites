@@ -38,11 +38,12 @@ Just copy the assets folder and link to the stylesheet in your HTML like above.
 ## For Contributors: Update Workflow
 
 1. Update `src/heroes.json` with latest json output from `http://api.steampowered.com/IEconDOTA2_570/GetHeroes/v1?language=en_us&key=<your steam web api key>`
-2. Open and Extract `materials/vgui/hud/minimap_hero_sheet[...].vtex_c` with `ValveResourceFormat` 
-from `steamapps\common\dota 2 beta\game\dota\pak01_000.vpk` and decompile to `assets/images/minimap_hero_sheet.png` 
-and `scripts/mod_textures.txt`  to `src/mod_textures.txt`
-3. Run `npm install` to get the required packages for the generator script
-4. Run `npm run generate`
+2. Download Source 2 Viewer from `https://valveresourceformat.github.io/`
+3. Search for `materials/vgui/hud/minimap_hero_sheet.vmat_c`, right click `Decompile & Export`
+4. Copy the new `minimap_hero_sheet` into `assets/images` in this repository
+5. Search for `mod_textures.txt`, copy into `mod_textures.txt` in this repository
+6. Run `npm install` to get the required packages for the generator script
+7. Run `npm run generate`
 
 ----------------
 
