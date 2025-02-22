@@ -2,14 +2,26 @@
   "name": "dota2-css-hero-sprites",
   "version": "2.5.0",
   "description": "CSS Spritesheet for the Dota 2 minimap hero icons",
-  "dependencies": {},
+  "files":["dist"],
+  "main":"./dist/dota2-css-hero-sprites.umd.js",
+  "module":"./dist/dota2-css-hero-sprites.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/dota2-css-hero-sprites.es.js",
+      "require": "./dist/dota2-css-hero-sprites.umd.js"
+    }
+  },
   "devDependencies": {
     "handlebars": "^4.7.7",
     "lodash.snakecase": "^4.1.1",
-    "vdf": "0.0.2"
+    "vdf": "0.0.2",
+    "vite": "^5.0.7"
   },
   "scripts": {
-    "generate": "node src/generate.js"
+    "generate": "node src/generate.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
