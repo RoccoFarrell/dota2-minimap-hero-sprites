@@ -45,6 +45,7 @@ Just copy the assets folder and link to the stylesheet in your HTML like above.
 6. Run `npm install` to get the required packages for the generator script
 7. Run `npm run generate`
 8. Update version in `package.json`
+9. Reminder for me, run `npm publish` to push the update to NPM
 
 ----------------
 
